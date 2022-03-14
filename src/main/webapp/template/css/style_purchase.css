@@ -1,0 +1,205 @@
+.app {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: var(--text-color);
+}
+
+.app-content__body {
+
+}
+
+.app-content-body__navbar {
+    background-color: var(--white-color);
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px var(--background-header-color);
+    height: 4.5rem;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: var(--header-height);
+}
+
+.app-content-body__navbar-item {
+    flex: 1;
+    text-align: center;
+    line-height: 4rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: .2s;
+}
+
+.item--active,
+.app-content-body__navbar-item:hover {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.app-content-body__list {
+}
+
+.app-content-body__list-item {
+    background-color: var(--white-color);
+    margin-top: 12px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px var(--background-header-color);
+    overflow: hidden;
+}
+
+.app-content-body-list-item__info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.app-content-body-list-item__img {
+    width: 120px;
+}
+
+.app-content-body-list-item__img img {
+    width: 100%;
+    border: 1px solid var(--primary-color);
+}
+
+.app-content-body-list-item__name {
+    flex: 1;
+}
+
+.app-content-body-list-item__name h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.app-content-body-list-item__name p {
+    color: var(--secondary-color);
+    margin-bottom: 4px;
+}
+
+.app-content-body-list-item__name p::before {
+    content: 'Tác giả: ';
+}
+
+.app-content-body-list-item__price {
+    display: flex;
+    gap: 8px;
+}
+
+.app-content-body-list-item__price-current {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.app-content-body-list-item__price-old {
+    font-size: 1rem;
+    color: var(--text-color-light);
+    text-decoration: line-through;
+}
+
+.app-content-body-list-item__control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0fdfb;
+    padding: 16px 18px;
+}
+
+.app-content-body-list-item-control__left {
+    line-height: 1.8rem;
+}
+
+.app-content-body-list-item-control__left h2::before {
+    content: 'Họ tên người nhận: ';
+}
+
+.app-content-body-list-item-control__left p::before {
+    content: 'Địa chỉ: ';
+}
+
+.app-content-body-list-item-control__left span::before {
+    content: 'Số điện thoại: ';
+}
+
+.app-content-body-list-item-control__center {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.app-content-body-list-item-control__right h2 {
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.app-content-body-list-item-control__right i {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.app-content-body-list-item-control__right p {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.app-content-body-list-item-control__right span {
+    float: right;
+    margin-top: 24px;
+}
+
+.app-container-content__search {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    background-color: var(--background-content-color);
+}
+
+.app-container-content__search-text {
+    margin-top: 12px;
+}
+
+.app-header__search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: var(--white-color);
+    box-shadow: 1px 2px 2px var(--background-header-color);
+    height: 42px;
+    border-radius: 2px;
+    padding: 0 4px;
+}
+
+.app-header__search > span {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 4px 12px;
+    border-radius: 2px;
+    border: none;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.app-header__search > span:hover {
+    opacity: .9;
+}
+
+.app-header__search > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    padding: 0 12px;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}

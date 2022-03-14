@@ -1,0 +1,36 @@
+
+table {
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 8px;
+    vertical-align: middle;
+}
+th {
+    background-color: #ffedda;
+    font-weight: 600;
+}
+
+.btntrangthai:link, .btntrangthai:visited {
+    background-color: orange;
+    color: white;
+    padding: 3px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btntrangthai:hover, .btntrangthai:active {
+    opacity: inherit;
+} 
+.app-container-content__text_php {
+    margin-top: 20px;
+}
+

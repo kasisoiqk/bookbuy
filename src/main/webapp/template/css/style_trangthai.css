@@ -1,0 +1,44 @@
+
+table {
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+
+    text-align: left;
+    padding: 8px;
+    vertical-align: middle;
+}
+th {
+    background-color: #ffedda;
+    font-weight: 600;
+}
+
+.btntrangthai {
+    background-color: orange;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+.btntrangthai:hover, .btntrangthai:active {
+    opacity: inherit;
+} 
+.app-container-content__text_php {
+    margin-top: 20px;
+}
+.input_tpye{
+        background-color: #eee;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 100%;
+    
+}
